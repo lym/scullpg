@@ -15,3 +15,7 @@ Variable size chunk of memory that implements page-sized blocks.
     dd bs=20 count=5 if=/dev/scull_pg of=~/scullpgout.txt
 
     vim /home/lym/scullpgout.txt
+
+## Disclaimer
+You might wanna try this code on a computer that doesn't have important
+data. As data losses are sooooo possible.
